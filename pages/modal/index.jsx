@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal } from "./modal";
+import Modal from "./modal";
 import { TwicAbstract } from "../../components/demo-wrapper/twicAbstract";
 import { TwicWrapper } from "../../components/demo-wrapper/twicWrapper";
 import { TwicImg } from "@twicpics/components/react";

@@ -1,7 +1,7 @@
 import React from "react";
 import { TwicImg } from "@twicpics/components/react";
 import styles from "./index.module.scss";
-export const Modal = (props) => {
+const Modal = (props) => {
   const { image, show, onClose } = props;
   if (!show) {
     return null;
@@ -28,3 +28,5 @@ export const Modal = (props) => {
     </div>
   );
 };
+
+export default Modal;

@@ -3,7 +3,7 @@ import { TwicImg } from "@twicpics/components/react";
 import styles from "./index.module.scss";
 
 const timerDuration = 3000;
-export const Slideshow = ({ images }) => {
+const Slideshow = ({ images = [] }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [imageReady, setImageReady] = useState(false);
   const [paused, setPaused] = useState(false);
@@ -91,3 +91,5 @@ export const Slideshow = ({ images }) => {
     </div>
   );
 };
+
+export default Slideshow;
