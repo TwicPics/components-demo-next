@@ -1,0 +1,22 @@
+#twic-ratio-container {
+  :global(.twic-grid) {
+    --twic-grid-columns-width: 40%;
+
+    &:global(.full-width) {
+      :global(.twic-item) {
+        width: 100%;
+      }
+    }
+
+    &:global(.half-width) {
+      :global(.twic-item) {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+
+  :global(.twic-item .twic-w) {
+    background-color: #00ffa3;
+  }
+}

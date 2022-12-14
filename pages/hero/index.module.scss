@@ -1,0 +1,17 @@
+.twic-demo-container {
+  background-color: rgba(#ffffff, $alpha: 0.8);
+  padding: 30px;
+
+  .hero {
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+
+    & :global(.twic-i) {
+      height: 100vh;
+    }
+  }
+}

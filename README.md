@@ -1,34 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TwicPics Components + Next.js
 
-## Getting Started
+This project is a demonstration project of [TwicPics Components](https://github.com/TwicPics/components/blob/main/documentation/next.md) using [Next.js](https://nextjs.org/).
 
-First, run the development server:
+## How to build
+
+### Using npm
 
 ```bash
-npm run dev
-# or
-yarn dev
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run preview
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Using yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# install dependencies
+$ yarn install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# build for production and launch server
+$ yarn build
+$ yarn preview
+```
 
-## Learn More
+## Overview
 
-To learn more about Next.js, take a look at the following resources:
+<div id='what-is-twicpics'/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### What is [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components)?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) is a **Responsive Image Service Solution** (SaaS) that enables **on-demand responsive image generation**.
 
-## Deploy on Vercel
+With [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components), developers only deal with high-resolution versions of their media while end-users receive **optimized, perfectly sized, device-adapted** versions **delivered from a server close to them**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) acts as an **image proxy**. It requests your master image, be it on your own web server, cloud storage or DAM, then generates a **device-adapted** version with **best-in-class compression**, delivered directly to the end-user from the **closest delivery point** available.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div id='what-is-twicpics-components'/>
+
+### What is TwicPics Components?
+
+TwicPics Components is a **collection of web components** that make it dead easy to unleash the power of [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) in your own projects.
+
+Basically, TwicPics components replace `img` and `video` tags. They greatly and transparently optimize your CLS by providing LQIP (Low-Quality Image Placeholders) and Lazy Loading out of the box.
+
+Simply replace this:
+
+```html
+<img src="https://assets.twicpics.com/examples/football.jpg" />
+```
+
+With this:
+
+```html
+<TwicImg src="https://assets.twicpics.com/examples/football.jpg" />
+```
+
+Thanks to the open source [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) Components, delivering responsive images in your [Next.js](https://nextjs.org/) projects has never been easier.
+
+## TwicPics configuration
+
+<div id='create-an-account'/>
+
+### Requirement
+
+The only requirement is to have a TwicPics account.
+If you don't already have one, you can easily [create your own TwicPics account for free](https://account.twicpics.com/signup).
+
+### Configuring `@twicpics/components`
+
+TwicPics components for `Next.js` comes as an `ES module`.
+
+An example of configuration is already set within `index.js` file.
+
+All you have to do is set your configuration options to the desired values ([see documentation](https://github.com/TwicPics/components/blob/main/documentation/next.md#setup-options)).
+
+## Examples
+
+All the examples proposed in this project are located in the `lib` directory.
+Feel free to inspire yourself from these different use cases to unleash the power of [TwicPics](https://www.twicpics.com/) in your own projects.
+
+## Questions and feedback
+
+Fell free to submit an [issue](https://github.com/TwicPics/components/issues) or to ask us anything by dropping an email at [support@twic.pics](mailto:support@twic.pics).
+
+## Licence
+
+[![License][license-image]][license-url]
+
+[license-image]: https://img.shields.io/npm/l/@twicpics/components.svg?style=flat-square
+[license-url]: https://raw.githubusercontent.com/twicpics/components/master/LICENSE

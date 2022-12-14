@@ -1,18 +1,29 @@
 {
   "name": "components-demo-next",
-  "version": "0.1.0",
-  "private": true,
+  "author": "TwicPics <hello@twic.pics> (https://www.twicpics.com)",
+  "description": "Demonstration of TwicPics components in a Next.js v13 project.",
+  "license": "MIT",
+  "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "yarn && yarn dev"
   },
   "dependencies": {
+    "@twicpics/components": "^0.14.1",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "1.56.2",
+    "webfontloader": "1.6.28"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.8.1"
   }
 }
