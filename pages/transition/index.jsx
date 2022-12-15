@@ -18,7 +18,7 @@ const TwicTransition = () => {
   };
   return (
     <div id={styles["twic-transition-container"]}>
-      <TwicWrapper gitHubUrl="src/lib/twicTransition/index.jsx">
+      <TwicWrapper gitHubUrl="pages/transition/index.jsx">
         <TwicAbstract title="transition properties">
           <p>
             <strong>
@@ -60,7 +60,10 @@ const TwicTransition = () => {
             {showTransitions ? IMG_TEXT : TRANSITIONS_TEXT}
           </button>
         </div>
-        <div className={`twic-grid ${ showTransitions ? styles[ `show-transitions` ] : `` } `}>
+        <div
+          className={`twic-grid ${
+            showTransitions ? styles[`show-transitions`] : ``
+          } `}>
           <div className="twic-item">
             <TwicImg src={imgUrl} placeholder="preview" />
             <span>Default values</span>

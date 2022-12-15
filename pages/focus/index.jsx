@@ -17,7 +17,7 @@ const TwicFocus = () => {
 
   return (
     <>
-      <TwicWrapper gitHubUrl="src/lib/twicFocus/index.jsx">
+      <TwicWrapper gitHubUrl="pages/focus/index.jsx">
         <TwicAbstract title="focus property">
           <p>
             <strong>

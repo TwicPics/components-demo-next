@@ -51,7 +51,7 @@ const TwicAnchor = () => {
 
   return (
     <div id={styles[`twic-anchor-container`]}>
-      <TwicWrapper gitHubUrl="src/lib/twicAnchor/index.jsx">
+      <TwicWrapper gitHubUrl="pages/anchor/index.jsx">
         <TwicAbstract title="anchor property">
           <p>
             <strong>

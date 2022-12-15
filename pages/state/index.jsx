@@ -30,7 +30,7 @@ const TwicState = () => {
 
   return (
     <div id={styles["twic-state-container"]}>
-      <TwicWrapper gitHubUrl="src/lib/twicState/index.jsx">
+      <TwicWrapper gitHubUrl="pages/state/index.jsx">
         <TwicAbstract title="state property and / or statechange event ">
           <p>
             You can access to the loading state of your image or video by

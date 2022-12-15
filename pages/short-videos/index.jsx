@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 const TwicShortVideos = () => {
   return (
     <div id={styles["twic-short-videos-container"]}>
-      <TwicWrapper gitHubUrl="src/lib/twicShortVideos/index.jsx">
+      <TwicWrapper gitHubUrl="pages/short-videos/index.jsx">
         <TwicAbstract title="Short Videos">
           <p>
             The ideal candidates for TwicPics video integration are hero videos,
