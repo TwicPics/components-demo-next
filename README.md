@@ -77,15 +77,13 @@ If you don't already have one, you can easily [create your own TwicPics account 
 
 ### Configuring `@twicpics/components`
 
-TwicPics components for `Next.js` comes as an `ES module`.
-
-An example of configuration is already set within `index.js` file.
+An example of configuration is set within `_app.jsx` file.
 
 All you have to do is set your configuration options to the desired values ([see documentation](https://github.com/TwicPics/components/blob/main/documentation/next.md#setup-options)).
 
 ## Examples
 
-All the examples proposed in this project are located in the `lib` directory.
+All the examples proposed in this project are located in the `pages` directory.
 Feel free to inspire yourself from these different use cases to unleash the power of [TwicPics](https://www.twicpics.com/) in your own projects.
 
 ## Questions and feedback
