@@ -29,7 +29,7 @@ $height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   border-bottom: 1px solid #e3e3e4;
   background-color: $bg-color;
   z-index: 10;
@@ -50,8 +50,8 @@ $height: 100px;
     width: 140px;
   }
   & .framework-logo {
-    aspect-ratio: 7/3;
-    width: 100px;
+    aspect-ratio: 800/479;
+    width: 90px;
   }
   & .tags-container {
     bottom: 0;
