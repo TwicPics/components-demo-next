@@ -64,9 +64,7 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
           </div>
         </div>
         <div className={styles["tags-container"]}>
-          <div className={`${styles["tag"]} ${styles["tag-components"]}`}>
-            @twicpics-components
-          </div>
+          <div className={styles["tag"]}>@twicpics-components</div>
           <a
             href={redirect}
             target="_blank"
