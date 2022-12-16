@@ -44,22 +44,14 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
               href={_gitHubUrl}
               rel="noreferrer"
               title="Open in Github">
-              <img
-                className={styles["github"]}
-                src="/assets/github-mark-white.svg"
-                alt="Open in Github"
-              />
+              <img src="/assets/github-mark-white.svg" alt="Open in Github" />
             </a>
             <a
               target="_blank"
               href={_codeSandBoxUrl}
               rel="noreferrer"
               title="Open in StackBlitz">
-              <img
-                className={styles["github"]}
-                src="/assets/stackblitz.svg"
-                alt="Open in StackBlitz"
-              />
+              <img src="/assets/stackblitz.svg" alt="Open in StackBlitz" />
             </a>
           </div>
         </div>
