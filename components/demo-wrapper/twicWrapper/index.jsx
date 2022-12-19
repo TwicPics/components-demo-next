@@ -13,12 +13,12 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
       },
     });
   }, []);
-  const logoSrc = `https://assets.twicpics.com/demo/@twicpics-components/logos/next.png`;
-  const redirect = `https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components`;
+  const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/next.png`;
+  const documentationUrl = `https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components`;
   const GITHUB = `https://github.com/TwicPics/components-demo-next`;
-  const CODESANDBOX = `https://stackblitz.com/edit/github-wpprt7?file=`;
-  const _codeSandBoxUrl = `${CODESANDBOX}${gitHubUrl || "README.md"}`;
-  const _gitHubUrl = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
+  const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`;
+  const onlineUrl = `${ONLINE_URL}${gitHubUrl || "README.md"}`;
+  const gitHubRedirect = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
   return (
     <div>
       <header id={styles["twic-header"]}>
@@ -32,7 +32,7 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
             <span>x</span>
             <img
               className={styles["framework-logo"]}
-              src={logoSrc}
+              src={frameworkLogo}
               alt="React Logo"
             />
           </h1>
@@ -41,14 +41,14 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
           <div>
             <a
               target="_blank"
-              href={_gitHubUrl}
+              href={gitHubRedirect}
               rel="noreferrer"
               title="Open in Github">
               <img src="/assets/github-mark-white.svg" alt="Open in Github" />
             </a>
             <a
               target="_blank"
-              href={_codeSandBoxUrl}
+              href={onlineUrl}
               rel="noreferrer"
               title="Open in StackBlitz">
               <img src="/assets/stackblitz.svg" alt="Open in StackBlitz" />
@@ -58,7 +58,7 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
         <div className={styles["tags-container"]}>
           <div className={styles["tag"]}>@twicpics-components</div>
           <a
-            href={redirect}
+            href={documentationUrl}
             target="_blank"
             className={`${styles["tag"]} ${styles["documentation-link"]} ${styles["tag--bg-purple-rain"]}`}
             rel="noreferrer">
