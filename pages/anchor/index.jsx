@@ -8,7 +8,7 @@ import styles from "./index.module.scss";
 
 const verticalConfig = [
   {
-    anchor: `center`,
+    anchor: undefined,
   },
   {
     anchor: `top`,
@@ -20,7 +20,7 @@ const verticalConfig = [
 
 const horizontalConfig = [
   {
-    anchor: `center`,
+    anchor: undefined,
   },
   {
     anchor: `left`,

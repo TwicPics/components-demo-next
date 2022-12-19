@@ -14,11 +14,13 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
     });
   }, []);
   const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/next.png`;
-  const documentationUrl = `https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components`;
+  const documentationUrl = `https://www.twicpics.com/docs/components/next?utm_source=github&utm_medium=organic&utm_campaign=components`;
   const GITHUB = `https://github.com/TwicPics/components-demo-next`;
   const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`;
   const onlineUrl = `${ONLINE_URL}${gitHubUrl || "README.md"}`;
-  const gitHubRedirect = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
+  const gitHubRedirect = gitHubUrl
+    ? `${GITHUB}/blob/main/${gitHubUrl}`
+    : GITHUB;
   return (
     <div>
       <header id={styles["twic-header"]}>
