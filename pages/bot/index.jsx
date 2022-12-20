@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 
 const config = [
   {
-    anchor: undefined,
+    anchor: "center",
     preTransform: "flip=x",
     ratio: "4/3",
   },
@@ -92,7 +92,7 @@ const TwicBot = () => {
               alt="bot"
               src="https://demo.twic.pics/https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg?twic=v1/cover=400x400"
             />
-            <span> Media seen by search engine bots </span>
+            <span>Media seen by search engine bots</span>
           </div>
           <div className="twic-item">
             <TwicImg
@@ -110,7 +110,6 @@ const TwicBot = () => {
               preTransform={actualConfig.preTransform}
             />
             <span>
-              {" "}
               Bot will override preTransform="{actualConfig.preTransform}"
             </span>
           </div>
@@ -119,8 +118,9 @@ const TwicBot = () => {
               src="https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg"
               bot="cover=400x400"
               anchor={actualConfig.anchor}
+              preTransform="cover=400x300"
             />
-            <span> Bot will override anchor="{actualConfig.anchor}"</span>
+            <span>Bot will override anchor="{actualConfig.anchor}"</span>
           </div>
         </div>
       </TwicWrapper>
