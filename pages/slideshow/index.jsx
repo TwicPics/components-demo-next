@@ -31,7 +31,7 @@ const images = [
 const TwicSlideshow = () => {
   return (
     <div id={styles["twic-slideshow-container"]}>
-      <TwicWrapper gitHubUrl="pages/slideshow/index.jsx">
+      <TwicWrapper filename="pages/slideshow/index.jsx">
         <TwicAbstract title="A Picture Carousel">
           <p>
             Use TwicPics for automatic lazy-loading, CLS optimization and art

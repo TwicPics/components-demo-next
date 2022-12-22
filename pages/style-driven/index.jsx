@@ -9,7 +9,7 @@ const imgUrl = `components/horse.jpg`;
 const TwicStyleDriven = () => {
   return (
     <div id={styles["twic-style-driven-container"]}>
-      <TwicWrapper gitHubUrl="pages/style-driven/index.jsx">
+      <TwicWrapper filename="pages/style-driven/index.jsx">
         <TwicAbstract title="CSS style driven">
           <p>
             You can set up the TwicPics components using pure CSS and the power

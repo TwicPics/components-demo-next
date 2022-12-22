@@ -3,7 +3,10 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import styles from "./index.module.scss";
 
-export const TwicWrapper = ({ gitHubUrl, children }) => {
+const GITHUB_REPO_NAME = `TwicPics/components-demo-next`;
+const GITHUB = `https://github.com/${GITHUB_REPO_NAME}`;
+
+export const TwicWrapper = ({ filename, children }) => {
   useEffect(() => {
     // eslint-disable-next-line no-undef
     const WebFont = require(`webfontloader`);
@@ -15,12 +18,17 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
   }, []);
   const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/next.png`;
   const documentationUrl = `https://www.twicpics.com/docs/components/next?utm_source=github&utm_medium=organic&utm_campaign=components`;
-  const GITHUB = `https://github.com/TwicPics/components-demo-next`;
-  const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`;
-  const onlineUrl = `${ONLINE_URL}${gitHubUrl || "README.md"}`;
-  const gitHubRedirect = gitHubUrl
-    ? `${GITHUB}/blob/main/${gitHubUrl}`
-    : GITHUB;
+  let onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
+    filename || "README.md"
+  }`;
+  if (filename) {
+    const test = /pages\/(.*)\//.exec(filename);
+    if (test) {
+      const [_, initialPath] = test;
+      onlineUrl = `${onlineUrl}&initialpath=${initialPath}`;
+    }
+  }
+  const gitHubUrl = filename ? `${GITHUB}/blob/main/${filename}` : GITHUB;
   return (
     <div>
       <header id={styles["twic-header"]}>
@@ -43,7 +51,7 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
           <div>
             <a
               target="_blank"
-              href={gitHubRedirect}
+              href={gitHubUrl}
               rel="noreferrer"
               title="Open in Github">
               <img src="/assets/github-mark-white.svg" alt="Open in Github" />

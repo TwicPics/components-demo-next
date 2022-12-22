@@ -49,7 +49,7 @@ const TwicEager = () => {
 
   return (
     <>
-      <TwicWrapper gitHubUrl="pages/eager/index.jsx">
+      <TwicWrapper filename="pages/eager/index.jsx">
         <div className={styles["demo-container"]}>
           <TwicAbstract title="eager property">
             <p>

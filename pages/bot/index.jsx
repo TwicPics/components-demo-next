@@ -42,7 +42,7 @@ const TwicBot = () => {
   });
   return (
     <div id={styles["twic-bot-container"]}>
-      <TwicWrapper gitHubUrl="pages/bot/index.jsx">
+      <TwicWrapper filename="pages/bot/index.jsx">
         <TwicAbstract title="bot property">
           <p>
             <strong>

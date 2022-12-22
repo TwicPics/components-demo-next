@@ -24,7 +24,7 @@ const TwicPageTemplating = () => {
   const [srcIsSet, setSrcIsSet] = useState(false);
   return (
     <>
-      <TwicWrapper gitHubUrl="pages/page-templating/index.jsx">
+      <TwicWrapper filename="pages/page-templating/index.jsx">
         <TwicAbstract title="Prepare your page template">
           <p>
             When you develop the page template and can't or don't want to

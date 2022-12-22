@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 const TwicIntrinsic = () => {
   return (
     <div id={styles["twic-intrinsic-container"]}>
-      <TwicWrapper gitHubUrl="pages/intrinsic/index.jsx">
+      <TwicWrapper filename="pages/intrinsic/index.jsx">
         <div className={styles["demo-container"]}>
           <TwicAbstract title="intrinsic property">
             <p>

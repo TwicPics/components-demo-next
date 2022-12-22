@@ -37,7 +37,7 @@ const TwicModal = () => {
 
   return (
     <div id={styles["twic-modal-container"]}>
-      <TwicWrapper gitHubUrl="pages/modal/index.jsx">
+      <TwicWrapper filename="pages/modal/index.jsx">
         <TwicAbstract title="A modal revealer">
           <p>Click on the image of your choice to reveal a modal.</p>
         </TwicAbstract>

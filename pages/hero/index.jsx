@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 const TwicHero = () => {
   return (
     <>
-      <TwicWrapper gitHubUrl="pages/hero/index.jsx">
+      <TwicWrapper filename="pages/hero/index.jsx">
         <div className={styles["twic-demo-container"]}>
           <TwicAbstract title="Hero image">
             <p>To display a hero image (or video) you need to :</p>

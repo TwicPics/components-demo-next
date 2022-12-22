@@ -209,7 +209,7 @@ const images = [...seed, ...seed, ...seed];
 
 const TwicGridAndZoom = () => (
   <div id={styles["twic-grid-and-zoom"]}>
-    <TwicWrapper gitHubUrl="pages/grid-and-zoom/index.jsx">
+    <TwicWrapper filename="pages/grid-and-zoom/index.jsx">
       <TwicAbstract title="TwicPics grid & zoom">
         <p>A responsive grid of images enhanced by zoom transition.</p>
         <p>
