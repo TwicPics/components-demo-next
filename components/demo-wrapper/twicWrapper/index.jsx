@@ -16,7 +16,7 @@ export const TwicWrapper = ({ filename, children }) => {
       },
     });
   }, []);
-  const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/next.png`;
+  const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/next-js.svg`;
   const documentationUrl = `https://www.twicpics.com/docs/components/next?utm_source=github&utm_medium=organic&utm_campaign=components`;
   let onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
     filename || "README.md"
