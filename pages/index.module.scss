@@ -8,9 +8,6 @@
   }
 
   :global(.twic-item) {
-    & :global(img) {
-      transition: 0.3s all ease-in-out;
-    }
     &:hover {
       & :global(img.twic-done) {
         transform: scale(1.1) !important;
