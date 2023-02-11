@@ -13,17 +13,17 @@
     "serve": "yarn && yarn dev"
   },
   "dependencies": {
-    "@twicpics/components": "latest",
-    "eslint": "8.29.0",
-    "eslint-config-next": "13.0.6",
-    "next": "13.0.6",
+    "@twicpics/components": "0.15.1",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "1.56.2",
+    "sass": "1.58.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
-    "eslint-config-prettier": "8.5.0",
-    "prettier": "2.8.1"
+    "eslint-config-prettier": "8.6.0",
+    "prettier": "2.8.4"
   }
 }
