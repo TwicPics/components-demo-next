@@ -3,10 +3,6 @@
     margin-bottom: 60px;
   }
 
-  :global(.twic-item .twic-w) {
-    background-color: #00ffa3;
-  }
-
   .landscape {
     --twic-ratio: calc(4 / 3);
   }
@@ -36,5 +32,14 @@
   }
   .sm {
     width: 100px;
+  }
+  .zoom_sm {
+    --twic-zoom: 1.5;
+  }
+  .zoom_md {
+    --twic-zoom: 2;
+  }
+  .zoom_lg {
+    --twic-zoom: 3;
   }
 }

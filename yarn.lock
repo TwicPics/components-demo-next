@@ -173,10 +173,8 @@
   dependencies:
     tslib "^2.4.0"
 
-"@twicpics/components@0.15.1":
+"@twicpics/components@../../components/dist":
   version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.15.1.tgz#39753c2f099c0a740ba7d953409cc541f537b8b0"
-  integrity sha512-N5Aupa5gPg+PxydBjJw37yzIu1/X719ot2AV9MdfFwctUN4Y/3KA4MAjSNPGqxM/UPc4qH3c/Vat9G6T68Gh/A==
 
 "@types/json5@^0.0.29":
   version "0.0.29"

@@ -1,0 +1,8 @@
+#twic-zoom-container {
+  :global(.twic-grid) {
+    --twic-grid-columns-width: calc(400px);
+  }
+  :global(.twic-item) {
+    cursor: crosshair;
+  }
+}
