@@ -9,7 +9,8 @@ const Modal = (props) => {
   return (
     <div
       className={`${styles["modal"]} ${show && styles["modal-opened"]}`}
-      onClick={onClose}>
+      onClick={onClose}
+    >
       <div className={styles["modal-content"]}>
         <div className={styles["poster"]}>
           <TwicImg src={image.url}></TwicImg>

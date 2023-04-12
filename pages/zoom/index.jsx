@@ -95,7 +95,8 @@ const TwicZoom = () => {
             className="twic-button"
             onClick={() => {
               setZoom(zoom + 0.5 > 4 ? 1.5 : zoom + 0.5);
-            }}>
+            }}
+          >
             Change zoom factor
           </button>
         </div>

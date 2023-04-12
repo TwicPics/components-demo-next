@@ -46,7 +46,8 @@ const TwicModal = () => {
             <div key={i}>
               <figure
                 className={`twic-item ${styles["poster-wrapper"]}`}
-                onClick={() => openModal(i)}>
+                onClick={() => openModal(i)}
+              >
                 <TwicImg src={image.url} focus="auto" ratio="0.95"></TwicImg>
                 <figcaption>
                   <p>Click</p>
@@ -55,7 +56,8 @@ const TwicModal = () => {
               <Modal
                 show={i === idModalToOpen}
                 onClose={closeModal}
-                image={image}></Modal>
+                image={image}
+              ></Modal>
             </div>
           ))}
         </div>

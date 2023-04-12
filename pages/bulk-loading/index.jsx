@@ -68,13 +68,15 @@ const TwicBulkLoading = () => {
             <div
               className={`${styles["polaroid"]} ${styles["bottom"]} ${
                 current % 2 === 0 && styles["left"]
-              }`}>
+              }`}
+            >
               <TwicImg src={images[penultimate].url} />
             </div>
             <div
               className={`${styles["polaroid"]} ${styles["bottom"]} ${
                 styles["previous"]
-              } ${(current - 1) % 2 === 0 && styles["left"]}`}>
+              } ${(current - 1) % 2 === 0 && styles["left"]}`}
+            >
               <TwicImg src={images[last].url} />
             </div>
             {images.map((image, i) => (
@@ -82,7 +84,8 @@ const TwicBulkLoading = () => {
                 className={`${styles["polaroid"]} ${
                   i === current && styles["top"]
                 } ${i % 2 == 0 && styles["left"]}`}
-                key={i}>
+                key={i}
+              >
                 <TwicImg src={image.url} />
               </div>
             ))}

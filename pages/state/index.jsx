@@ -67,7 +67,8 @@ const TwicState = () => {
           <button
             className="twic-button"
             disabled={state !== `done` && state !== `error`}
-            onClick={() => setIndice((indice + 1) % config.length)}>
+            onClick={() => setIndice((indice + 1) % config.length)}
+          >
             Click to load next image
           </button>
         </div>

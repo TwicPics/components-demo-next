@@ -87,7 +87,8 @@ const TwicEager = () => {
               style={{
                 // eslint-disable-next-line no-magic-numbers
                 transform: `translateX(-${indice * 100}%)`,
-              }}>
+              }}
+            >
               {images.map((image, i) => (
                 <div className={styles["item"]} key={i}>
                   <TwicImg

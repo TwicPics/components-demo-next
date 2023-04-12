@@ -53,14 +53,16 @@ export const TwicWrapper = ({ filename, children }) => {
               target="_blank"
               href={gitHubUrl}
               rel="noreferrer"
-              title="Open in Github">
+              title="Open in Github"
+            >
               <img src="/assets/github-mark-white.svg" alt="Open in Github" />
             </a>
             <a
               target="_blank"
               href={onlineUrl}
               rel="noreferrer"
-              title="Open in StackBlitz">
+              title="Open in StackBlitz"
+            >
               <img src="/assets/stackblitz.svg" alt="Open in StackBlitz" />
             </a>
           </div>
@@ -71,7 +73,8 @@ export const TwicWrapper = ({ filename, children }) => {
             href={documentationUrl}
             target="_blank"
             className={`${styles["tag"]} ${styles["documentation-link"]} ${styles["tag--bg-purple-rain"]}`}
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Documentation
           </a>
         </div>

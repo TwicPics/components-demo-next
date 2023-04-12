@@ -51,14 +51,14 @@ const TwicRatio = () => {
         <div className="twic-testing-container">
           <button
             className="twic-button"
-            onClick={() =>
-              setRatioIndex((ratioIndex + 1) % ratioValues.length)
-            }>
+            onClick={() => setRatioIndex((ratioIndex + 1) % ratioValues.length)}
+          >
             Click to change the aspect-ratio
           </button>
           <button
             className="twic-button"
-            onClick={() => setFullWidthAera(!fullWidthAera)}>
+            onClick={() => setFullWidthAera(!fullWidthAera)}
+          >
             Click to change the area width
           </button>
         </div>

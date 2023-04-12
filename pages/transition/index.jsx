@@ -63,7 +63,8 @@ const TwicTransition = () => {
         <div
           className={`twic-grid ${
             showTransitions ? styles[`show-transitions`] : ``
-          } `}>
+          } `}
+        >
           <div className="twic-item">
             <TwicImg src={imgUrl} placeholder="preview" />
             <span>Default values</span>

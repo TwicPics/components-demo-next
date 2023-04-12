@@ -39,7 +39,8 @@ const TwicPageTemplating = () => {
         <div className="twic-testing-container">
           <button
             className="twic-button"
-            onClick={() => setSrcIsSet(!srcIsSet)}>
+            onClick={() => setSrcIsSet(!srcIsSet)}
+          >
             Click to {srcIsSet ? `unset` : `set`} the src property
           </button>
         </div>

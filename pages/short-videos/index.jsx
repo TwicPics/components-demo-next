@@ -25,12 +25,23 @@ const TwicShortVideos = () => {
             display of a generated poster until the video is actually viewable.
           </p>
           <p>
-            This feature is available{" "}
-            <strong>for all our Pro and Enterprise customers</strong>.
+            The TwicPics API features three transformations that can be used to{" "}
+            <a
+              href="https://www.twicpics.com/docs/topics/video-optimization#video-slicing?utm_source=github&utm_medium=organic&utm_campaign=components#next"
+              target="_blank"
+              rel="noreferrer"
+            >
+              extract a portion of the original video
+            </a>
+            .
           </p>
           <br />
           Here the properties used in this example:
           <ul>
+            <li>
+              <Code>from, to and duration</Code>:
+              <span>used to extract a portion of the original video.</span>
+            </li>
             <li>
               <Code>intrinsic</Code>:
               <span>
@@ -39,52 +50,38 @@ const TwicShortVideos = () => {
               </span>
             </li>
             <li>
-              <Code>focus</Code>:
-              <span>changes the focus point coordinates of the image.</span>
-            </li>
-            <li>
               <Code>mode</Code>:
               <span>
                 determines if the image fills or sits inside the area.
               </span>
             </li>
             <li>
-              <Code>placeholder</Code>:
+              <Code>preTransform</Code>:
               <span>
-                helps optimize your CLS and implement the LQIP technique.
+                allows to perfom{" "}
+                <a
+                  href="https://www.twicpics.com/docs/reference/transformations?utm_source=github&utm_medium=organic&utm_campaign=components#next"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  TwicPics API transformations
+                </a>
+                .
               </span>
             </li>
             <li>
               <Code>ratio</Code>:
               <span>
-                &nbsp; determines the value of the width/height ratio of the
-                image display area.
+                determines the value of the width/height ratio of the image
+                display area.
               </span>
             </li>
           </ul>
         </TwicAbstract>
         <div className="twic-grid">
           <div className="twic-item">
-            <TwicVideo
-              src="video/skater.mp4"
-              intrinsic="1280x720"
-              placeholder="preview"
-              ratio="16/9"
-            />
-            <span>
-              <Code>ratio="16/9"</Code>&<Code>mode="cover"</Code>: the video
-              fills the area
-            </span>
-          </div>
-          <div className="twic-item">
-            <TwicVideo
-              src="video/skater.mp4"
-              focus="center"
-              intrinsic="1280x720"
-              mode="cover"
-              placeholder="maincolor"
-            />
-            <span> Default values </span>
+            <TwicVideo src="video/skater.mp4" intrinsic="1280x720"></TwicVideo>
+            <span>Default values</span>
           </div>
           <div className="twic-item">
             <TwicVideo
@@ -92,24 +89,58 @@ const TwicShortVideos = () => {
               intrinsic="1280x720"
               placeholder="meancolor"
               mode="contain"
-              ratio="1"
-            />
-            <span>
-              <Code>ratio="1"</Code>&<Code>mode="contain"</Code>: the video sits
-              inside the area
-            </span>
+            ></TwicVideo>
+            <span> ratio="1" mode="contain" </span>
           </div>
           <div className="twic-item">
             <TwicVideo
               src="video/skater.mp4"
               intrinsic="1280x720"
-              placeholder="preview"
-              ratio="2/3"
-            />
-            <span>
-              <Code>ratio="2/3"</Code>,<Code>mode="cover"</Code>: the video
-              fills the area
-            </span>
+              ratio="16/9"
+            ></TwicVideo>
+            <span> ratio="16/9" </span>
+          </div>
+          <div className="twic-item">
+            <TwicVideo
+              src="video/skater.mp4"
+              intrinsic="1280x720"
+              preTransform="flip=x"
+            ></TwicVideo>
+            <span>preTransform="flip=x"</span>
+          </div>
+          <div className="twic-item">
+            <TwicVideo
+              src="video/skater.mp4"
+              intrinsic="1280x720"
+              from="5.1"
+            ></TwicVideo>
+            <span>from="5.1"</span>
+          </div>
+          <div className="twic-item">
+            <TwicVideo
+              src="video/skater.mp4"
+              intrinsic="1280x720"
+              to="5.1"
+            ></TwicVideo>
+            <span>to="5.1"</span>
+          </div>
+          <div className="twic-item">
+            <TwicVideo
+              src="video/skater.mp4"
+              intrinsic="1280x720"
+              from="15.4"
+              to="16.6"
+            ></TwicVideo>
+            <span>from="15.4" to="16.6"</span>
+          </div>
+          <div className="twic-item">
+            <TwicVideo
+              src="video/skater.mp4"
+              intrinsic="1280x720"
+              from="15.4"
+              duration="1.2"
+            ></TwicVideo>
+            <span>from="15.4" duration="1.2"</span>
           </div>
         </div>
       </TwicWrapper>
