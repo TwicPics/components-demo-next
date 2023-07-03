@@ -137,6 +137,13 @@ const categories = [
         title: `ratio`,
       },
       {
+        route: `/refit`,
+        imgSrc: `components/refit/dog-looking-water.jpg`,
+        focus: `50px50p`,
+        refit: `5p`,
+        title: `refit`,
+      },
+      {
         route: `/state`,
         imgSrc: `components/state/autumn.jpg`,
         title: `state`,
@@ -170,6 +177,7 @@ const Home = () => (
                       src={item.imgSrc}
                       focus={item.focus ? item.focus : "auto"}
                       ratio="0.95"
+                      refit={item.refit ? item.refit : false}
                     />
                   ) : (
                     <TwicVideo

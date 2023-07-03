@@ -162,7 +162,7 @@
   dependencies:
     tslib "^2.4.0"
 
-"@twicpics/components@../../components/dist":
+"@twicpics/components@0.20.0":
   version "0.18.0"
 
 "@types/json5@^0.0.29":
