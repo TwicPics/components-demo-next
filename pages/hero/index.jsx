@@ -19,7 +19,7 @@ const TwicHero = () => {
                 height.
               </li>
               <li>
-                use<Code>ratio="none"</Code>to free
+                use<Code>ratio="none"</Code>to free&nbsp;
                 <a href="/ratio" target="_blank" rel="noreferrer">
                   aspect ratio
                 </a>
@@ -29,7 +29,7 @@ const TwicHero = () => {
                 <a href="/intrinsic" target="_blank" rel="noreferrer">
                   intrinsic
                 </a>
-                property as in<Code>intrinsic="3840x2160"</Code>
+                &nbsp;property as in<Code>intrinsic="3840x2160"</Code>
               </li>
             </ul>
             <p>
