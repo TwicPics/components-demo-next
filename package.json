@@ -13,7 +13,7 @@
     "serve": "yarn && yarn dev"
   },
   "dependencies": {
-   "@twicpics/components": "0.22.1",
+   "@twicpics/components": "0.22.2",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "next": "13.4.9",
