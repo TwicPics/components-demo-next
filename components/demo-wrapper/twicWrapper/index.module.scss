@@ -29,7 +29,7 @@ $height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
+  padding: 35px;
   border-bottom: 1px solid #e3e3e4;
   background-color: $bg-color;
   z-index: 10;
@@ -46,12 +46,18 @@ $height: 100px;
     font-weight: 400;
   }
   & .twicpics-logo {
-    aspect-ratio: 140/39;
-    width: 140px;
+    aspect-ratio: 300/58;
+    width: 165px;
+    @media (min-width: 640px) {
+      width: 250px;
+    }
   }
   & .framework-logo {
     aspect-ratio: 100/39;
-    width: 100px;
+    width: 66px;
+    @media (min-width: 640px) {
+      width: 100px;
+    }
   }
   & .tags-container {
     bottom: 0;
@@ -138,5 +144,8 @@ $height: 100px;
         }
       }
     }
+  }
+  @media (min-width: 640px) {
+    padding: 25px;
   }
 }

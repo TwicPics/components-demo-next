@@ -36,7 +36,7 @@ export const TwicWrapper = ({ filename, children }) => {
           <h1 className={styles["heading-primary"]}>
             <img
               className={styles["twicpics-logo"]}
-              src="https://assets.twicpics.com/demo/@twicpics-components/logos/twicpics.svg"
+              src="https://assets.twicpics.com/demo/@twicpics-components/logos/twicpics-by-frontify.svg"
               alt="TwicPics logo"
             />
             <span>x</span>
