@@ -13,13 +13,13 @@
     "serve": "yarn && yarn dev"
   },
   "dependencies": {
-   "@twicpics/components": "0.22.3",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9",
-    "next": "13.4.9",
+    "@twicpics/components": "0.23.0",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3",
+    "next": "13.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "1.63.6",
+    "sass": "1.68.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
