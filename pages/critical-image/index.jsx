@@ -21,7 +21,7 @@ const TwicCriticalImage = () => {
               @lg 3
             "
             sizes="
-              (min-width: 1600px) calc(100vw - 4rem),
+              (min-width: 1600px) calc(1600px - 4rem),
               calc(100vw - 80px)
             "
           ></TwicPicture>
