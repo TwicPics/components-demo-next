@@ -172,10 +172,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@twicpics/components@0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.27.0.tgz#8a5ca55b83d053d506307444be61d6bc48215dfc"
-  integrity sha512-+VSVlLiRLZEaodtCmDUTfN3vtP3xRr//Qm95T6yTqSvvDfkTHr5hsjqL8mfKvGQ7GSdrCvz5/ndMYVRjEZF0cg==
+"@twicpics/components@0.27.1":
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.27.1.tgz#8729272d55fa9849e5d9f1f4295b3056ee4a13aa"
+  integrity sha512-AICE+o49BqySJKKViUPfgUkY04sWtXFQvj6MERa2TliI0JyrByl5PFmBtjUNAXCO2z/hNJDdS4JlgCxx9s3rLA==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -2008,6 +2008,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
