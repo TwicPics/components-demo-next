@@ -183,10 +183,10 @@
     "@swc/counter" "^0.1.3"
     tslib "^2.4.0"
 
-"@twicpics/components@0.30.0":
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.30.0.tgz#6ecce15948cd62359c963682bde348ad2583089a"
-  integrity sha512-wbHNcstIBtJo2x14BYXccyghX0Fgj7wMYltUGl7EordL3/zYwXgPFheO6ddO12X2JgbmWGkrPhhDNsZop5jkLw==
+"@twicpics/components@0.31.0":
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.31.0.tgz#de092e6b33383e2594ab0cfc8e5cec00df227a1a"
+  integrity sha512-+XnOixLLcJox1E7vwdVTQjHnSPCSR8l68B+AOt3rvt7966JM+Koc4vJQcJpINfoUtWGtF8ubuV1FY7RqZzFbyQ==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
