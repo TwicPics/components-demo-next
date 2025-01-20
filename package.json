@@ -13,18 +13,18 @@
     "serve": "yarn && yarn dev"
   },
   "dependencies": {
-    "@twicpics/components": "0.31.1",
-    "eslint": "9.14.0",
-    "eslint-config-next": "15.0.2",
-    "next": "15.0.2",
-    "react": "^19.0.0-rc-7c8e5e7a-20241101",
-    "react-dom": "^19.0.0-rc-7c8e5e7a-20241101",
-    "sass": "1.80.6",
+    "@twicpics/components": "0.31.2",
+    "eslint": "9.18.0",
+    "eslint-config-next": "15.1.5",
+    "next": "15.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "1.83.4",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
-    "eslint-config-prettier": "9.1.0",
-    "prettier": "3.3.3"
+    "eslint-config-prettier": "10.0.1",
+    "prettier": "3.4.2"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
