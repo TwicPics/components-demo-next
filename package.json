@@ -14,17 +14,17 @@
   },
   "dependencies": {
     "@twicpics/components": "0.33.0",
-    "eslint": "9.18.0",
-    "eslint-config-next": "15.1.5",
-    "next": "15.1.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sass": "1.83.4",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.0.8",
+    "next": "16.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "sass": "1.95.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
-    "eslint-config-prettier": "10.0.1",
-    "prettier": "3.4.2"
+    "eslint-config-prettier": "10.1.8",
+    "prettier": "3.7.4"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
