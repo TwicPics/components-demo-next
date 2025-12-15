@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "@twicpics/components": "0.33.0",
-    "eslint": "9.39.1",
-    "eslint-config-next": "16.0.8",
-    "next": "16.0.8",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "sass": "1.95.0",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.0.10",
+    "next": "16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "sass": "1.96.0",
     "webfontloader": "1.6.28"
   },
   "devDependencies": {
